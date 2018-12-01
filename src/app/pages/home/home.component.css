@@ -1,0 +1,26 @@
+button.btn.btn-outline-success.btn-view {
+    background: transparent;
+    border: 2px solid #d39e00;
+       color: #d39e00; margin-bottom: 12px;
+}
+
+button.btn.btn-outline-success.btn-view:hover {
+    background: #d39e00;
+    border: 2px solid #d39e00;
+       color: #FFF;
+}
+
+ul.social_links li {
+    float: left;
+    padding: 9px;
+    font-size: 27px;
+    list-style-type: none;
+    color: #d4eceb;
+}
+
+
+h3.slider_title {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #d39e00;
+}

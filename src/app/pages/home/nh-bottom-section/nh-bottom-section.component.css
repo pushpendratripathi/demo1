@@ -1,0 +1,45 @@
+.singhbox
+{
+    background: #fff;
+    box-shadow: 0 2px 20px rgba(216, 216, 216, 0.3);
+    border: 1px solid rgba(237, 237, 237, 0.75);
+    margin: 2px 9px;  
+}
+.col-sm-4.singhbox {
+    max-width: 31.333333%!important;
+}
+.emg-content.emg-sighup {
+    padding: 13px;
+}
+
+.emg-content.emg-sighup h5 {
+    font-size:18px;
+}
+span.media-middle {
+    color: #d39e00;
+}
+
+.col-sm-4.singhbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emg-content.emg-sighup h4 {
+    font-size: 20px; color: #5d6766;
+}
+
+button.btn.btn-default.ripple.with-arrow {
+    background: #d39e00;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 699px) and (min-width: 320px)
+
+{
+    .col-sm-4.singhbox {
+        max-width: 100%!important;
+    }
+
+}

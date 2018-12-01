@@ -1,0 +1,71 @@
+<div class="contact_bnr">
+
+    <div class="box">
+<h2>Contact Us</h2>
+        <img class="img-responsive" src="../../../assets/img/contact/contact.jpg">
+    </div>
+
+</div>
+
+
+<div class="container top_space">
+
+    <div class="row">
+<div class="col-md-6">
+        <p>To email us, please fill out the form below:</p>
+        <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+        <label>Name</label>
+        <input type="text"
+        class="form-control"
+        formControlName="username"
+        required>
+        </div>
+
+        <div class="form-group">
+         <label>Phone Number</label>
+         <input type="text"
+        class="form-control"
+        formControlName="phone"
+        required>
+        </div>
+      
+        <div class="form-group">
+        <label>Email</label>
+        <input type="email"
+        class="form-control"
+        formControlName="email"
+        required>
+        </div>
+
+
+        <div class="form-group">
+        <label>Comment</label>
+        <textarea name="customer-message" cols="100" rows="6" class="textarea"></textarea>
+        </div>
+       
+        <!-- <pre>{{myform.value | json}}</pre> -->
+</form>
+
+<button type="submit" class="btn btn-default ripple with-arrow">Send</button>
+ </div>
+
+ <div class="col-md-6">
+        <div class="textaddress"><h4>Address</h4>
+            <p>The Noida Private Hospital<br>
+            Sector 63 <br>
+            India</p>
+            <h4>Postal Address</h4>
+            <p>Locked Bag 12<br>
+            Ashfield NSW 1800</p>
+            <h4>Reception</h4>
+            <p>T: (033) 8697 0555</p>
+            
+           
+            </div>
+
+    
+</div>
+
+</div>
+</div>

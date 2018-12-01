@@ -1,0 +1,16 @@
+footer.footer {
+    background: #013535;
+    margin-top: 30px;
+}
+footer p{
+    color:#FFF; padding: 0;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+span.link a {
+    padding: 12px;
+    color: #d39e00;
+}

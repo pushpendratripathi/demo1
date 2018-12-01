@@ -1,0 +1,17 @@
+ul.social_links li {
+    float: left;
+    padding: 0px 7px 0px 8px;
+    color: #6aa09e;
+    list-style-type: none;
+    font-size: 23px;
+}
+
+ul.social_links li a
+{
+    color: #6aa09e;
+}
+
+ul.social_links li a:hover
+{
+    color: #fff;
+}

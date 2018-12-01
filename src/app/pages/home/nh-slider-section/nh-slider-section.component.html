@@ -1,0 +1,17 @@
+<div class="bg">
+
+<div class="container topspace">
+    <div class="row rearrangemobile" *ngFor="let flatside of flatsides">
+    <div class="col-md-4" >
+    <img src="../../../../assets/img/pic/{{flatside.pic}}" width="100%">
+    </div>
+    <div class="col-md-8">
+      <h2 class="head">{{ flatside.heading}}</h2>
+    {{flatside.prea}}
+<p><button _ngcontent-c4="" class="btn btn-outline-success vieslide btn-view" type="button">{{flatside.viewmore}}</button></p>   
+
+    </div>
+    </div>
+    
+    </div>
+  </div>

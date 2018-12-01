@@ -1,0 +1,32 @@
+ul.nav li a:hover {
+    color: #d39e00!important;
+}
+
+.active
+{
+    color: #d39e00;
+}
+
+.navbar-brand
+{
+    color: #FFF;
+}
+
+a.navbar-brand {
+    padding: 3px 14px 0px 0px;
+    
+  
+}
+
+.btn-primary, .button_group {
+    color: #fff;
+    background-color: #d39e00;
+    border-color: #0e5a56;
+    border-radius: 40px;
+    font-size: 13px;font-size: 13px;
+}
+
+.dropdown-menu
+{
+    background-color: #0e5a56;
+}

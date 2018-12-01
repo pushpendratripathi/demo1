@@ -1,0 +1,13 @@
+div.quick div.quick_wrap ul li {
+    padding: 10px 4px 10px 6px;
+    vertical-align: top;
+    background:#0e5a56;
+    border-bottom: 1px dotted #d39e00; list-style-type: none;
+    color:#d39e00;
+}
+
+.btn_common li a {
+    color: #bededc;
+    padding: 7px;
+}
+

@@ -1,0 +1,46 @@
+
+.bg {
+    background: #f7f7f7;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.head
+{ color:#5d6766;
+
+}
+button.btn.btn-default.ripple.with-arrow {
+    margin-top: 12px;
+}
+.vieslide
+{
+ margin-top:12px;
+}
+.row.rearrangemobile {
+    margin-top: 30px;
+}
+
+button.btn.btn-outline-success.btn-view {
+    background: transparent;
+    border: 2px solid #d39e00;
+       color: #d39e00; margin-bottom: 12px;
+}
+
+button.btn.btn-outline-success.btn-view:hover {
+    background: #d39e00;
+    border: 2px solid #d39e00;
+       color: #FFF;
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 320px)
+{
+.rearrangemobile
+ {
+ display: table;
+}
+
+.rearrangemobile div.col-md-8:first-child
+{
+ display: table-footer-group;
+}
+}

@@ -1,0 +1,31 @@
+.textaddress {
+    float: right;
+}
+
+.contact_bnr img {
+    width: 100%;
+    position: relative;
+    z-index: -11;
+}
+.box h2 {
+    position: absolute;
+    left: 8.7%;
+    color: antiquewhite;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 23px;
+    border-top: 2px solid #d39e00;
+}
+
+.top_space {
+    margin-top: 30px!important;
+    margin-bottom: 30px;
+}
+
+button.btn.btn-default.ripple.with-arrow {
+    background: #d39e00;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 18px;
+}
